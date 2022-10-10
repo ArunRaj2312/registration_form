@@ -1,0 +1,114 @@
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+	body{
+	background-color:#a9d5b075;
+	}
+	form{
+	padding:0px 490px 0px 490px;
+	}
+	label{
+	font-size:18px;
+	}
+	input{
+	float:right;
+	}
+	#dob{
+	width:177px;
+	height:21px;
+	}
+	#male{
+	float:none;
+	margin-left:80px;
+	}
+	#female,#eng{
+	float:none;
+	margin-left:25px;
+	}
+	#tamil{
+	float:none;
+	}
+	select{
+	float:right;
+	width:177px;
+	height:21px;
+	}
+	#resume{
+	width:177px;
+	}
+	#percent{
+	width:177px;
+	}
+	button{
+	margin-top:10px;
+	}
+	</style>
+</head>
+<body>
+	<center>
+		<h1>REGISTRATION FORM</h1>
+	</center>
+	<form>
+		<fieldset>
+			<legend>REGISTRATION FORM</legend>
+			<label for="Ifirst">First Name:</label>
+			<input type="text" name="Ifirst" id="Ifirst" placeholder="Enter Your First Name"><br><br>
+			<label for="Ilast">Last Name:</label>
+			<input type="text" name="Ilast" id="Ilast" placeholder="Enter Your Last Name"><br><br>
+			<label for="father">Father Name:</label>
+			<input type="text" name="father" id="father" placeholder="Enter Your Father Name"><br><br>
+			<label for="mother">Mother Name:</label>
+			<input type="text" name="mother" id="mother" placeholder="Enter Your Mother Name"><br><br>
+			<label for="dob">Date Of Birth:</label>
+			<input type="date" name="dob" id="dob"><br><br>
+			<label for="gender">Gender:</label>
+			<input type="radio" name="gender" id="male">
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="female">
+			<label for="female">female</label><br><br>
+			<label for="degree">Qualification:</label>
+			<select name="degree" id="degree">
+				<option value>Select Your Qualification</option>
+				<optgroup label="Bsc">
+					<option value="Mathamatics">Mathamatics</option>
+					<option value="Physics">Physics</option>
+					<option value="Chemistry">Chemistry</option>
+					<option value="Computer Science">Computer Science</option>
+					<option value="Information Technology">Information Technology</option>
+				</optgroup>
+				<optgroup label="BA">
+					<option value="Tamil">Tamil</option>
+					<option value="English">English</option>
+				</optgroup>
+				<option value="BCA">BCA</option>
+			</select><br><br>
+			<label for="percent">Percentage</label>
+			<input type="range" name="percent" id="percent" min="0" max="100"><br><br>
+			<label for="mail">Gmail:</label>
+			<input type="email" name="mail" id="mail" placeholder="Enter Your Gmail"><br><br>
+			<label for="pass">Password:</label>
+			<input type="password" name="pass" id="pass" placeholder="Enter Your Password"><br><br>
+			<label for="phone">Phone No:</label>
+			<input type="number" name="phone" id="phone" placeholder="Enter Your Phone No"><br><br>
+			<label for="add">Address:</label>
+			<input type="text" name="add" id="add" placeholder="Enter Your Address"><br><br>
+			<label for="pin">Pin Code:</label>
+			<input type="number" name="pin" id="pin" placeholder="Enter Your Pin Code"><br><br>
+			<label for="national">Nationality</label>
+			<input type="text" name="national" id="national" placeholder="Enter Your Nationality"><br><br>
+			<label for="lan">Language Known:</label>
+			<input type="checkbox" name="tamil" id="tamil">
+			<label for="tamil">Tamil</label>
+			<input type="checkbox" name="eng"id="eng">
+			<label for="eng">English</label><br><br>
+			<label for="resume">Resume:</label>
+			<input type="file" name="resume" id="resume">
+			<center>
+				<button>Submit</button>
+				<button>Reset</button>
+			</center>
+		</fieldset>
+	</form>
+</body>
+</html>
